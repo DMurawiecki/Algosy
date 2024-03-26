@@ -75,8 +75,8 @@ def isPalindrome(s):
 # print(isPalindrome("madam"))
 
 def isSubsequence(s, t):
-    ptr_s = 0  # Указатель для строки s
-    ptr_t = 0  # Указатель для строки t
+    ptr_s = 0  
+    ptr_t = 0  
 
     while ptr_s < len(s) and ptr_t < len(t):
         if s[ptr_s] == t[ptr_t]:
